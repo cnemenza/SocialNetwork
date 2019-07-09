@@ -1,0 +1,5 @@
+C:\Users\Diego-pc\Documents\Proyectos\Cnemenza\SocialNetwork\SocialNetwork\SOCIALNETWORK.CORE\bin\Debug\SOCIALNETWORK.CORE.dll
+C:\Users\Diego-pc\Documents\Proyectos\Cnemenza\SocialNetwork\SocialNetwork\SOCIALNETWORK.CORE\bin\Debug\SOCIALNETWORK.CORE.pdb
+C:\Users\Diego-pc\Documents\Proyectos\Cnemenza\SocialNetwork\SocialNetwork\SOCIALNETWORK.CORE\obj\Debug\SOCIALNETWORK.CORE.csproj.CoreCompileInputs.cache
+C:\Users\Diego-pc\Documents\Proyectos\Cnemenza\SocialNetwork\SocialNetwork\SOCIALNETWORK.CORE\obj\Debug\SOCIALNETWORK.CORE.dll
+C:\Users\Diego-pc\Documents\Proyectos\Cnemenza\SocialNetwork\SocialNetwork\SOCIALNETWORK.CORE\obj\Debug\SOCIALNETWORK.CORE.pdb

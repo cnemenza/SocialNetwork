@@ -1,0 +1,69 @@
+﻿<div class="modal fade" id="m_modal_4" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-lg" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="exampleModalLabel">Nuevo Evento</h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+            </div>
+            <form id="form_new_event" autocomplete="off">
+
+                <div class="modal-body">
+                    <div class="form-group m-form__group">
+                        <label for="recipient-name" class="form-control-label">Nombre:</label>
+                        <input name="Name" type="text" class="form-control">
+                    </div>
+                    <div class="form-group m-form__group">
+                        <label for="message-text" class="form-control-label">Descripcion:</label>
+                        <textarea name="Description" class="form-control" maxlength="300"></textarea>
+                    </div>
+                    <div id="m_repeater_1" class="mt-4 m-form__group">
+                        <div class="form-group  m-form__group row" id="m_repeater_1">
+                            <label class="col-lg-2 col-form-label">Personal:</label>
+                            <div data-repeater-list="" class="col-lg-10">
+                                <div data-repeater-item class="form-group m-form__group row align-items-center">
+                                    <div class="col-md-8">
+                                        <div class="m-form__group m-form__group--inline">
+                                            <div class="m-form__control">
+                                                @*<select name="Staff" class="form-control m-select2 select-staff" id="select-staff"></select>*@
+                                                <input type="text" name="Staff" class="form-control input-staff" placeholder="Ingresar puesto a necesitar" />
+                                            </div>
+                                        </div>
+                                        <div class="d-md-none m--margin-bottom-10"></div>
+                                    </div>
+                                    <div class="col-md-4">
+                                        <div data-repeater-delete="" id="repeater-delete" class="btn-sm btn btn-danger m-btn m-btn--icon m-btn--pill">
+                                            <span>
+                                                <i class="la la-trash-o"></i>
+                                                <span>Eliminar</span>
+                                            </span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="m-form__group form-group row">
+                            <label class="col-lg-2 col-form-label"></label>
+                            <div class="col-lg-4">
+                                <div data-repeater-create="" id="repeater-create" class="btn btn btn-sm btn-brand m-btn m-btn--icon m-btn--pill m-btn--wide">
+                                    <span>
+                                        <i class="la la-plus"></i>
+                                        <span>Agregar</span>
+                                    </span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Cancelar</button>
+                    <button type="submit" class="btn btn-accent">Crear</button>
+                </div>
+            </form>
+
+        </div>
+
+    </div>
+</div>

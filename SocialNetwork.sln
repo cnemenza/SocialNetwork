@@ -1,0 +1,70 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.572
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SOCIALNETWORK.ENTITIES", "SOCIALNETWORK.ENTITIES\SOCIALNETWORK.ENTITIES.csproj", "{883E672F-C172-4B90-BBEE-AC5B869BD97E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SOCIALNETWORK.CORE", "SOCIALNETWORK.CORE\SOCIALNETWORK.CORE.csproj", "{E1E9EC13-7326-487F-ABA2-C9A0F828A2BB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SOCIALNETWORK.REPOSITORY", "SOCIALNETWORK.REPOSITORY\SOCIALNETWORK.REPOSITORY.csproj", "{0AEA31AC-48FF-4C7F-AEBE-B67AD3373CDC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SOCIALNETWORK.WEB", "SOCIALNETWORK.WEB\SOCIALNETWORK.WEB.csproj", "{F1282F7C-AA34-46BC-916B-8D383060F08B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SOCIALNETWORK.API", "SOCIALNETWORK.API\SOCIALNETWORK.API.csproj", "{D62D50FA-4862-4593-8367-AD60CEDCD563}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{883E672F-C172-4B90-BBEE-AC5B869BD97E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{883E672F-C172-4B90-BBEE-AC5B869BD97E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{883E672F-C172-4B90-BBEE-AC5B869BD97E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{883E672F-C172-4B90-BBEE-AC5B869BD97E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E1E9EC13-7326-487F-ABA2-C9A0F828A2BB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E1E9EC13-7326-487F-ABA2-C9A0F828A2BB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E1E9EC13-7326-487F-ABA2-C9A0F828A2BB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E1E9EC13-7326-487F-ABA2-C9A0F828A2BB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0AEA31AC-48FF-4C7F-AEBE-B67AD3373CDC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0AEA31AC-48FF-4C7F-AEBE-B67AD3373CDC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0AEA31AC-48FF-4C7F-AEBE-B67AD3373CDC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0AEA31AC-48FF-4C7F-AEBE-B67AD3373CDC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F1282F7C-AA34-46BC-916B-8D383060F08B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F1282F7C-AA34-46BC-916B-8D383060F08B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F1282F7C-AA34-46BC-916B-8D383060F08B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F1282F7C-AA34-46BC-916B-8D383060F08B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D62D50FA-4862-4593-8367-AD60CEDCD563}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D62D50FA-4862-4593-8367-AD60CEDCD563}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D62D50FA-4862-4593-8367-AD60CEDCD563}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D62D50FA-4862-4593-8367-AD60CEDCD563}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {EDA54292-ACE1-4475-AF93-BD47B0BBCAB2}
+	EndGlobalSection
+	GlobalSection(TeamFoundationVersionControl) = preSolution
+		SccNumberOfProjects = 6
+		SccEnterpriseProvider = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
+		SccTeamFoundationServer = https://dev.azure.com/christiannemenza
+		SccLocalPath0 = .
+		SccProjectUniqueName1 = SOCIALNETWORK.CORE\\SOCIALNETWORK.CORE.csproj
+		SccProjectName1 = SOCIALNETWORK.CORE
+		SccLocalPath1 = SOCIALNETWORK.CORE
+		SccProjectUniqueName2 = SOCIALNETWORK.ENTITIES\\SOCIALNETWORK.ENTITIES.csproj
+		SccProjectName2 = SOCIALNETWORK.ENTITIES
+		SccLocalPath2 = SOCIALNETWORK.ENTITIES
+		SccProjectUniqueName3 = SOCIALNETWORK.REPOSITORY\\SOCIALNETWORK.REPOSITORY.csproj
+		SccProjectName3 = SOCIALNETWORK.REPOSITORY
+		SccLocalPath3 = SOCIALNETWORK.REPOSITORY
+		SccProjectUniqueName4 = SOCIALNETWORK.WEB\\SOCIALNETWORK.WEB.csproj
+		SccProjectName4 = SOCIALNETWORK.WEB
+		SccLocalPath4 = SOCIALNETWORK.WEB
+		SccProjectUniqueName5 = SOCIALNETWORK.API\\SOCIALNETWORK.API.csproj
+		SccProjectName5 = SOCIALNETWORK.API
+		SccLocalPath5 = SOCIALNETWORK.API
+	EndGlobalSection
+EndGlobal

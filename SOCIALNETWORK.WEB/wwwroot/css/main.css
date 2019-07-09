@@ -1,0 +1,13 @@
+﻿.m-portlet.m-portlet--brand.m-portlet--head-solid-bg .m-portlet__head {
+    background-color: #3e3c4f !important;
+    border-color: #6167e6 !important;
+}
+
+.has-danger .input-group-text, .has-danger .form-control {
+    border-color: #f4516c;
+}
+
+.btn-accent {
+    background-color: #3e3c4f !important ;
+    border-color: #6167e6 !important;
+}

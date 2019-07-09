@@ -1,0 +1,44 @@
+﻿@using SOCIALNETWORK.CORE
+@{
+    var userId = ClaimsExtension.GetCurrentUserId();
+}
+
+<input id="userId" type="hidden" value="@userId" />
+<input id="eventId" type="hidden" value="@ViewBag.EventId" />
+<div class="m-portlet m-portlet--brand m-portlet--head-solid-bg m-portlet--rounded" id="portlet_detail">
+    <div class="m-portlet__head">
+        <div class="m-portlet__head-caption">
+            <div class="m-portlet__head-title">
+                <span class="m-portlet__head-icon">
+                    <i class="flaticon-comment"></i>
+                </span>
+                <h3 class="m-portlet__head-text">
+                    Chat grupal
+                </h3>
+            </div>
+        </div>
+    </div>
+    <div class="m-portlet__body">
+        <div class="m-messenger m-messenger--message-arrow m-messenger--skin-light">
+            <div class="m-messenger__form">
+                <div class="m-messenger__form-controls">
+                    <textarea id="new_message" placeholder="Escribe aqui..." class="m-messenger__form-input" maxlength="300"></textarea>
+                </div>
+                <div class="m-messenger__form-tools">
+                    <a href="javascript:;" class="m-messenger__form-attachment btn_newMessage">
+                        <i class="la la-send"></i>
+                    </a>
+                </div>
+            </div>
+            <div class="m-messenger__seperator"></div>
+            <div class="m-messenger__messages m-scrollable" id="message_container">
+
+            </div>
+
+        </div>
+    </div>
+</div>
+
+@section Scripts{
+    <script src="~/wwwroot/js/forum/index.js"></script>
+}

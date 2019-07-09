@@ -1,0 +1,9 @@
+C:\Users\Diego-pc\Documents\Proyectos\Cnemenza\SocialNetwork\SocialNetwork\SOCIALNETWORK.ENTITIES\bin\Release\SOCIALNETWORK.ENTITIES.dll
+C:\Users\Diego-pc\Documents\Proyectos\Cnemenza\SocialNetwork\SocialNetwork\SOCIALNETWORK.ENTITIES\bin\Release\SOCIALNETWORK.ENTITIES.pdb
+C:\Users\Diego-pc\Documents\Proyectos\Cnemenza\SocialNetwork\SocialNetwork\SOCIALNETWORK.ENTITIES\bin\Release\SOCIALNETWORK.CORE.dll
+C:\Users\Diego-pc\Documents\Proyectos\Cnemenza\SocialNetwork\SocialNetwork\SOCIALNETWORK.ENTITIES\bin\Release\SOCIALNETWORK.CORE.pdb
+C:\Users\Diego-pc\Documents\Proyectos\Cnemenza\SocialNetwork\SocialNetwork\SOCIALNETWORK.ENTITIES\obj\Release\SOCIALNETWORK.ENTITIES.csprojAssemblyReference.cache
+C:\Users\Diego-pc\Documents\Proyectos\Cnemenza\SocialNetwork\SocialNetwork\SOCIALNETWORK.ENTITIES\obj\Release\SOCIALNETWORK.ENTITIES.csproj.CoreCompileInputs.cache
+C:\Users\Diego-pc\Documents\Proyectos\Cnemenza\SocialNetwork\SocialNetwork\SOCIALNETWORK.ENTITIES\obj\Release\SOCIALNETWORK.ENTITIES.csproj.CopyComplete
+C:\Users\Diego-pc\Documents\Proyectos\Cnemenza\SocialNetwork\SocialNetwork\SOCIALNETWORK.ENTITIES\obj\Release\SOCIALNETWORK.ENTITIES.dll
+C:\Users\Diego-pc\Documents\Proyectos\Cnemenza\SocialNetwork\SocialNetwork\SOCIALNETWORK.ENTITIES\obj\Release\SOCIALNETWORK.ENTITIES.pdb

@@ -1,0 +1,110 @@
+﻿    @using SOCIALNETWORK.CORE
+@model SOCIALNETWORK.WEB.Models.Event.EventViewModel
+
+<div class="m-portlet m-portlet--brand m-portlet--head-solid-bg m-portlet--rounded" id="portlet_detail">
+    <div class="m-portlet__head">
+        <div class="m-portlet__head-caption">
+            <div class="m-portlet__head-title">
+                <span class="m-portlet__head-icon">
+                    <i class="flaticon-star"></i>
+                </span>
+                <h3 class="m-portlet__head-text">
+                    @Model.Name
+                </h3>
+            </div>
+        </div>
+        <div class="m-portlet__head-tools">
+            <ul class="m-portlet__nav">
+                <li class="m-portlet__nav-item">
+                    @if (Model.EventType.Equals(ConstantsHelpers.Event.Type.ISOWNER))
+                    {
+                        <a href="javascript:;" id="btn_delete_event" data-id="@Model.Id" class="m-portlet__nav-link btn btn-danger m-btn m-btn--pill m-btn--air">
+                            Eliminar Evento
+                        </a>
+                    }
+                    else if (Model.EventType.Equals(ConstantsHelpers.Event.Type.ISUSERFREE))
+                    {
+                        <a href="javascript:;" data-id="@Model.Id" id="btn_join_event" class="m-portlet__nav-link btn btn-light m-btn m-btn--pill m-btn--air">
+                            Unirse
+                        </a>
+                    }
+                    else
+                    {
+                        <a href="javascript:;" data-id="@Model.Id" id="btn_goout_event" class="m-portlet__nav-link btn btn-danger m-btn m-btn--pill m-btn--air">
+                            Salir del Evento
+                        </a>
+                    }
+
+                </li>
+                <li id="opt_details" class="m-portlet__nav-item m-dropdown m-dropdown--inline m-dropdown--arrow m-dropdown--align-right m-dropdown--align-push" m-dropdown-toggle="hover">
+                    <a href="javascript:;" data-id="@Model.Id" class="m-portlet__nav-link m-dropdown__toggle btn btn-light m-btn m-btn--pill m-btn--air">
+                        Opciones
+                    </a>
+                    <div class="m-dropdown__wrapper">
+                        <span class="m-dropdown__arrow m-dropdown__arrow--right m-dropdown__arrow--adjust"></span>
+                        <div class="m-dropdown__inner">
+                            <div class="m-dropdown__body">
+                                <div class="m-dropdown__content">
+                                    <ul class="m-nav">
+                                        <li class="m-nav__item">
+                                            <a href="javascript:;" data-id="@Model.Id" class="m-nav__link modal_members">
+                                                <i class="m-nav__link-icon flaticon-users"></i>
+                                                <span class="m-nav__link-text">Participantes</span>
+                                            </a>
+                                        </li>
+                                        @if (Model.EventType.Equals(ConstantsHelpers.Event.Type.ISUSERREGISTER) || Model.EventType.Equals(ConstantsHelpers.Event.Type.ISOWNER))
+                                        {
+                                            <li class="m-nav__item">
+                                                <a href="javascript:;" data-id="@Model.Id" class="m-nav__link foro_event">
+                                                    <i class="m-nav__link-icon flaticon-chat"></i>
+                                                    <span class="m-nav__link-text">Foro</span>
+                                                </a>
+                                            </li>
+                                        }
+                                        @if (Model.EventType.Equals(ConstantsHelpers.Event.Type.ISUSERFREE) || Model.EventType.Equals(ConstantsHelpers.Event.Type.ISUSERREGISTER))
+                                        {
+                                            <li class="m-nav__item">
+                                                <a href="javascript:;" class="m-nav__link report_event">
+                                                    <i class="m-nav__link-icon flaticon-danger"></i>
+                                                    <span class="m-nav__link-text">Reportar</span>
+                                                </a>
+                                            </li>
+                                        }
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </li>
+            </ul>
+        </div>
+    </div>
+    <div class="m-portlet__body">
+        <small>Creado
+        por @Model.UserOwnerName el @Model.CreatedAt</small><br /><br />
+        @Model.Description<br /><br />
+        <strong>Se necesita :</strong>
+        @if (Model.PeopleToNeed.Equals("|") || string.IsNullOrEmpty(Model.PeopleToNeed))
+        {
+            <br />
+            <small>No se especificaron puestos que se necesitan.</small>
+        }
+        else
+        {
+            var nameSplit = Model.PeopleToNeed.Split('|');
+            <ul class="mt-3">
+                @foreach (var item in nameSplit)
+                {
+                    if (!string.IsNullOrEmpty(item))
+                    {
+                        <li>@item</li>
+                    }
+                }
+            </ul>
+        }
+    </div>
+</div>
+
+@section Scripts{
+    <script src="~/wwwroot/js/event/detail.js" type="text/javascript"></script>
+}
